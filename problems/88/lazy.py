@@ -3,9 +3,6 @@ from itertools import chain
 
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-        idx_1 = 0
-        idx_2 = 0
-
         numbers_1 = nums1[:m]
         numbers_2 = nums2
 
